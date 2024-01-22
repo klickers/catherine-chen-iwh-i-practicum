@@ -1,0 +1,14 @@
+doctype html
+html 
+    head 
+        title= `${title}`
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="/css/style.css")
+    body    
+        h1 objects
+        .cards 
+            each object in data
+                .card 
+                    h2.card__name #{object.properties.name}
+                    p #{object.properties.title}
+                    p #{object.properties.role}
