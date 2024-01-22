@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body, * {
+body,
+* {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -26,10 +27,6 @@ h1 {
     box-shadow: 3px 2px 6px lightgrey;
 }
 
-.card__email {
-    font-size: 1rem;
-}
-
 .form-wrapper {
     font-size: 18px;
     max-width: 768px;
@@ -40,7 +37,8 @@ h1 {
     box-shadow: 3px 2px 6px lightgrey;
 }
 
-label, input {
+label,
+input {
     margin-top: 5px;
     display: block;
     font-size: inherit;
